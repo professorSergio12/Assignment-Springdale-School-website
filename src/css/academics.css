@@ -1,0 +1,49 @@
+.academics-section {
+    padding: 60px 0;
+}
+
+.academics-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: rgb(173, 173, 80);
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(159, 111, 23);
+}
+
+.academics-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.academics-card-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.academics-card-body {
+    padding: 20px;
+}
+
+.academics-details {
+    padding-top: 60px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .academics-card-img {
+        height: 150px;
+    }
+
+    .main {
+        padding-left: 10px;
+    }
+}

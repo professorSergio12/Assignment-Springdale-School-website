@@ -1,0 +1,64 @@
+.admissions-container {
+    min-height: 100vh;
+    background-image: url('../img/admission-bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    color: white;
+}
+
+.admissions-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.admissions-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    color: black;
+}
+
+.admissions-container h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.admissions-container p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.important-dates-container {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-top: 2px solid #ddd;
+    margin-top: 2rem;
+}
+
+.important-dates-table {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    margin-top: 2rem;
+}
+
+.important-dates-table th,
+.important-dates-table td {
+    padding: 1rem;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(154, 135, 99);
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(218, 215, 59);
+}

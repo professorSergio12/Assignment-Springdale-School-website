@@ -1,0 +1,23 @@
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand img {
+    width: 3rem; 
+    height: 3rem;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    margin-bottom: 0;
+    padding: 0.5rem 1rem; 
+}
+
+.navbar .container {
+    padding: 0;
+}
+
+.hoverTxt:hover{
+    background-color: rgba(235, 221, 221, 0.403);
+}

@@ -1,0 +1,38 @@
+
+.student-life-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Card Styling */
+.student-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.student-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.student-card-title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.student-card-body {
+    padding: 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .student-card-img {
+        height: 150px;
+    }
+}

@@ -1,0 +1,25 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  border-top: 1px solid #dee2e6;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.map-container {
+  margin-top: 1rem;
+}
+
+.footer iframe {
+  border-radius: 8px;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}

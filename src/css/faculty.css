@@ -1,0 +1,51 @@
+.faculty-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.faculty-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.faculty-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.faculty-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.faculty-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.faculty-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.faculty-text {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .faculty-card-img {
+        height: 150px;
+    }
+}
